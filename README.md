@@ -23,11 +23,11 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-一、分页组件
-  1. /src/components/Pagination/index.vue 是该组件的具体源码
-  2. 引用方式：
-     a.把分页插件的源码拷贝到自己的项目的组件文件夹下
-     b.首先在<script></script>区域内通过 import newPage from '@/components/Pagination/index'
+## 一、分页组件
+  ### 1. /src/components/Pagination/index.vue 是该组件的具体源码
+  ### 2. 引用方式：
+     #### a.把分页插件的源码拷贝到自己的项目的组件文件夹下
+     #### b.首先在<script></script>区域内通过 import newPage from '@/components/Pagination/index'
        接着在components里面对组件进行注册,在data里记得要设置默认的curPage的值为1
        然后template里面使用
        <new-page :total="16" :currentPage="curPage" @change-current="handleChangeCurrent" @change-next="handleChangeNext" @change-prev="handleChangePrev"></new-page>
