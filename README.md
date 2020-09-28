@@ -35,6 +35,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
        handleChangeCurrent(val) {
           this.curPage = val
           console.log(val)
+          // 可以在这里做一些自己的操作，例如修改请求服务器的入参，或者根据当前的页码打开新页面等等
         },
         handleChangePrev(val) {
           this.curPage = val
