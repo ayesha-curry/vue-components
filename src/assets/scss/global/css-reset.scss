@@ -1,0 +1,130 @@
+/*css reset*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  -webkit-overflow-scrolling: touch;
+}
+
+body,
+html,
+div,
+ul,
+li,
+p,
+img,
+span,
+a,
+i,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+dl,
+ol,
+dl,
+dt,
+dd,
+select,
+section,
+nav,
+footer,
+button,
+input,
+form,
+header,
+textarea {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+  -webkit-tap-highlight-color: transparent;
+  font-weight: 500;
+  letter-spacing: 0;
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+button,
+input,
+textarea {
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  list-style: decimal;
+  padding-left: 0px;
+}
+
+img {
+  border: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+input,
+button {
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  list-style-type: none;
+  border: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #999;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

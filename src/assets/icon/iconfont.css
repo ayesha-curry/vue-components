@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1601279199412'); /* IE9 */
+  src: url('iconfont.eot?t=1601279199412#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOEAAsAAAAAB+QAAAM3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqCXIIjATYCJAMUCwwABCAFhG0HbRvUBlGUzck+2VfYlDFfTEHZFO7cAUan9lrwOH00xQYAAPAZxDYAABBBtWw9s3v3pOxiUhQ+l0clYVAoFIVwKJAO4bH4FIS7q2m7f1oXbseny1e0pqpN3bv0zWw2XxzVaZRCSBAOB9Pvr97bmU2QQoITQ4XUyKsrpDvHmwtNqmD/aV5LleGHhcX/f3DMdGkJmGeLcskKigYcDXg2i/pOGtm/yAv6P8YGarf7NIEBcyyjk/PbB7WuMg8F4rowsVrPmNWG2tAntBVXVvEIrS/v8wkPwe/Hl91YJzWFeebp1VmmDl8NlOeuye0hSKZzgr+Ogh1KJW4q3deWovSOJQPq+mUHlAF9Uk61LNMlkZreMGD9wyMVVRAtFBgCBzKVV4PDIHntMSi8DlSaNf8ofZYnNWAALS4pN0zciremFCJCJJJRFHIuOhtT4aRJi0wPGHDeisaIkQ6LyDACrguNz1qMWHTWOj+oVzaNthiMxeb7syuZMzKlHTLmO3qJdHmyLQ5PNqeyOYPd7Vrrsy+ZS7BkLX2+BXMBVvyEMRKmlYBJwlVLJmhgcWL2yKC3DCM2Fiysth/5j3uXhSQGNBouxSM5QfpohMgRWPH+Jny9yE+feyPxSUqiPutEwunKwr/7Rl/eodUthU6+lWXIn/yjm0gZQfAXgSCf/zm+PcP/OqaCl/m/EO5UMDzTJ+ks+R2SjmNVk5mWpiqdjljxNhYmUKc6N4Cf4J/wM41++gazoc90Aqln1ln0aRJEVuwONAbtQavPPgzYdnH9oElsSdR+bPkACGM+IY14gmLMF7Jiv6Ex4xdaY7EEA86CcsdBa1FsmhhjwQySBRQptdq2yWZYe4dmqGNOywLyE3JfxMB3vHzuAlvkKc7ppyYQ0aCZGjiH52FdE3RMJabi5CLdxHV11YmclBq16RhDMYEyILEACinS0t5ssVn4+TvIGNRi3NBV5X+CWK9YHPgcXgfkhbrt1HUr3+lNGQEhNKAx0gDnsA3VagR01dtKKCUc+YBkZ8K1pumuamd5bfMCRXwf5t2byChRo4nWwN1AZRG3QsPBwpHGTw7zIU7idi/ATDO7Ri12QnW2n41wYXLOpBQA') format('woff2'),
+  url('iconfont.woff?t=1601279199412') format('woff'),
+  url('iconfont.ttf?t=1601279199412') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1601279199412#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zuojiantou:before {
+  content: "\e6e1";
+}
+
+.icon-youjiantou_huaban:before {
+  content: "\e63c";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-arrow-right-bold:before {
+  content: "\e687";
+}
+
